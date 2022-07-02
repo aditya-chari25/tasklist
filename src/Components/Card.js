@@ -20,7 +20,7 @@ const Card = (props) => {
           check:ob3
         })
         .then((res)=>{
-            alert(ob3);
+            if(ob3)
             window.location.reload(false);
     
         });
